@@ -125,7 +125,7 @@ const Header: FC<Props> = ({ activeItem, setOpen, route, open, setRoute }) => {
                             ? userData.user.avatar.url
                             : avatar
                         }
-                        alt=""
+                        alt="User avatar"
                         width={30}
                         height={30}
                         className="w-[30px] h-[30px] rounded-full cursor-pointer"
